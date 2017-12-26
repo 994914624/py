@@ -1,0 +1,19 @@
+    
+    
+    
+    
+    ① 初始化SDK
+
+    ② if 获取到用户ID ，调用 login 传入用户ID 
+
+    ③ trackInstallation 记录激活事件，渠道追踪 
+
+    ④ enableAutoTrack 开启自动采集事件 (如果需要开启Fragment页面浏览事件自动采集，在 enableAutoTrack 后开    trackFragmentAppViewScreen)
+
+    ⑤ 通过 track 方法来自定义埋点
+
+    ⑥ 用户注册成功、登录成功时，调用 login 传入用户ID
+
+    ⑦ 设置用户属性，profileSet/profileSetOne （建议在调用login之后设置用户属性）
+
+     通过 track 方法来自定义埋点
